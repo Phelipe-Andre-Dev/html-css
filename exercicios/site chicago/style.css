@@ -1,3 +1,4 @@
+@charset "utf8";
 @import url('https://fonts.googleapis.com/css2? family= Diplomata+SC & display=swap');
 
 
@@ -16,6 +17,29 @@ h1#principal{
     color: red;
 }
 
+nav{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    color: red;
+}
+
+nav > :hover{
+    background-color: rgba(255, 255, 255, 0.548);
+}
+
+main{
+    background-color: white;
+}
+
 h1{
     text-align: center; 
     background-color: rgb(8, 7, 7);
@@ -32,5 +56,9 @@ h3{
     
     background-color: white;
     text-align: center;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 2px 2px 2px;
     
 }
